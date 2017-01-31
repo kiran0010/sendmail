@@ -27,13 +27,13 @@ router.post('/mailsender', function (req, res) {
     port: 465,
     secure: true,
     auth: {
-     user: 'totan0010@gmail.com',
+     user: 'hfgjk@gmail.com',
      pass: 'bjQbHM93b8Lqsa'
     }
 });
    
   var mailOptions = {
-      from: 'totan0010@gmail.com', // sender address
+      from: 'tokjghfh@gmail.com', // sender address
       to: mail, // list of receiver 
       subject: sub, // Subject line
       text:comment, //, // plaintext body
